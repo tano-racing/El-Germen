@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Institucional">
+        <menu>
+            <item
+                android:id="@+id/nav_actividades"
+                android:title="Actividades" />
+            <item
+                android:id="@+id/nav_libro_x_libro"
+                android:title="Libro por Libro" />
+            <item
+                android:id="@+id/nav_calendario"
+                android:title="Calendario" />
+            <item
+                android:id="@+id/nav_recomendaciones"
+                android:title="Recomendaciones de curso" />
+        </menu>
+    </item>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/nav_redes"
+                android:title="Redes Sociales" />
+            <item
+                android:id="@+id/nav_notas"
+                android:title="Notas y Noticias" />
+        </menu>
+    </item>
+
+
+    <item android:title="Ubicacin">
+        <menu>
+            <item
+                android:id="@+id/nav_mapas"
+                android:title="Mapa de FCE y Sedes" />
+            <item
+                android:id="@+id/nav_como_llegar"
+                android:title="Como Llegar" />
+        </menu>
+    </item>
+
+    <!--<item-->
+    <!--android:id="@+id/nav_cerrar_sesion"-->
+    <!--android:title="Cerrar Sesion" />-->
+
+</menu>
